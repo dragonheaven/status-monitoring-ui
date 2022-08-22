@@ -1,6 +1,6 @@
 import React from "react"
 import { Meta } from "@storybook/react/types-6-0"
-import data from "../../data/data.json";
+import data from "../../mock/data.json";
 import ServerTable from "./index";
 import {IServer} from "../../shared/interface";
 

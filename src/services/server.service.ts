@@ -1,4 +1,4 @@
-import serverData from '../data/data.json';
+import serverData from '../mock/data.json';
 import { IServer } from "../shared/interface";
 
 let servers: IServer[] = [...serverData] as any;

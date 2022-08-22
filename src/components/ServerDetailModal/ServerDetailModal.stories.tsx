@@ -1,7 +1,7 @@
 import React from "react"
 import { Story, Meta } from "@storybook/react/types-6-0"
 import ServerDetailModal , { IServerDetailModalProps } from ".";
-import data from '../../data/data.json';
+import data from '../../mock/data.json';
 import {IServer} from "../../shared/interface";
 import StorybookProvider from "../StorybookProvider";
 

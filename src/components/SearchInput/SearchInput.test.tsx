@@ -1,6 +1,6 @@
+import React from "react";
 import { render, screen } from '@testing-library/react';
 import { SearchInput } from './index';
-import React from "react";
 
 describe('SearchInput component', () => {
   it('render without crashing', () => {

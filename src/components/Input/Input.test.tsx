@@ -1,7 +1,7 @@
-import { render } from '@testing-library/react';
-import Input from './index';
 import React from "react";
 import userEvent from "@testing-library/user-event";
+import { render } from '@testing-library/react';
+import Input from './index';
 
 describe('test Input component', () => {
   it('render without crashing', () => {
