@@ -121,6 +121,7 @@ const ServerModal: React.FC<IServerModalProps> = ({
                       onClick={onClose}
                     />
                     <Button
+                      testId="save-button"
                       htmlType="submit"
                       label="Save"
                       variant="contained"
