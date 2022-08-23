@@ -1,5 +1,4 @@
 import React from 'react';
-
 import clsx from 'clsx';
 import { IServer, IState } from "../../shared/interface";
 import Portal from "../../hoc/Portal";

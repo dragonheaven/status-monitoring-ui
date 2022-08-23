@@ -1,8 +1,8 @@
 import React from "react"
 import {render, screen, waitFor} from "@testing-library/react"
-import App from "./App"
 import userEvent from "@testing-library/user-event";
-import data from "./data/data.json";
+import App from "./App"
+import data from "./mock/data.json";
 
 describe('test app', () => {
   it("renders learn react link", () => {

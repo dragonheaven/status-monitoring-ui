@@ -1,10 +1,11 @@
-import {render} from '@testing-library/react';
-import ServerModal from './index';
 import React from "react";
-import data from "../../data/data.json";
+import {render} from '@testing-library/react';
+import userEvent from "@testing-library/user-event";
+import ServerModal from './index';
+import data from "../../mock/data.json";
 import { IServer } from "../../shared/interface";
 import StorybookProvider from "../StorybookProvider";
-import userEvent from "@testing-library/user-event";
+
 
 describe('ServerModal component', () => {
   it('render without crashing', async () => {

@@ -1,7 +1,7 @@
 import React from "react"
 import { render } from "@testing-library/react"
-import Button from "./index";
 import userEvent from "@testing-library/user-event";
+import Button from "./index";
 
 describe("test Button component", () => {
   it('should render without crashing', function () {

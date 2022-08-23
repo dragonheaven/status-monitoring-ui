@@ -1,6 +1,6 @@
 import {render} from '@testing-library/react';
 import React from "react";
-import data from "../../data/data.json";
+import data from "../../mock/data.json";
 import { IServer } from "../../shared/interface";
 import ServerTable from "./index";
 

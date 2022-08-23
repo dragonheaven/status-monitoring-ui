@@ -1,9 +1,10 @@
-import {render, waitFor} from '@testing-library/react';
 import React from "react";
+import {render, waitFor} from '@testing-library/react';
+import userEvent from "@testing-library/user-event";
 import StorybookProvider from "../../components/StorybookProvider";
 import HomePage from "./index";
-import userEvent from "@testing-library/user-event";
-import data from '../../data/data.json';
+
+import data from '../../mock/data.json';
 
 describe('Home page', () => {
   it('render without crashing', async () => {

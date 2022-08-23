@@ -1,9 +1,8 @@
 import React, { useCallback, useEffect } from 'react';
-
 import clsx from 'clsx';
+import {useFormik} from 'formik';
 import { IServer, IState } from "../../shared/interface";
 import Portal from "../../hoc/Portal";
-import {useFormik} from 'formik';
 import { CreateServerSchema } from "../../shared/schemas";
 import Input from "../Input";
 import Button from "../Button";
